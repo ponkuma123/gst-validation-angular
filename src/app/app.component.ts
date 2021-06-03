@@ -39,6 +39,7 @@ export class AppComponent  {
         return true
       }
       else{
+        event.preventDefault();
         return false
       }
     }
@@ -49,6 +50,7 @@ export class AppComponent  {
         return true
       }
       else{
+        event.preventDefault();
         return false
       }
     }
@@ -59,6 +61,7 @@ export class AppComponent  {
         return true
       }
       else{
+        event.preventDefault();
         return false
       }
     }
@@ -69,6 +72,7 @@ export class AppComponent  {
         return true
       }
       else{
+        event.preventDefault();
         return false
       }
     }
@@ -79,6 +83,7 @@ export class AppComponent  {
         return true
       }
       else{
+        event.preventDefault();
         return false
       }
     }
@@ -89,6 +94,7 @@ export class AppComponent  {
         return true
       }
       else {
+        event.preventDefault();
         return false
       }
     }
@@ -99,10 +105,12 @@ export class AppComponent  {
         return true
       }
       else{
+        event.preventDefault();
         return false
       }
     }
     else{
+      event.preventDefault();
       return false
     }
   }
